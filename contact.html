@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact - My Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="timezone.html">Timezones</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <h1>Contact</h1>
+  <form id="contactForm">
+    <label>Name: <input type="text" name="name" required></label><br>
+    <label>Email: <input type="email" name="email" required></label><br>
+    <label>Message:<br>
+      <textarea name="message" required></textarea>
+    </label><br>
+    <button type="submit">Send</button>
+  </form>
+  <p id="formResult"></p>
+  <script src="script.js"></script>
+</body>
+</html>
